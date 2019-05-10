@@ -55,6 +55,9 @@ body {
     }
 
     div {
+        &:last-of-type {
+            padding-right: 59px;
+        }
 
         h1 {
             color: $color-2;
@@ -70,7 +73,6 @@ body {
             color: $color-3;
             font-size: 14px;
             line-height: 24px;
-            padding-right: 60px;
         }
     }
 
