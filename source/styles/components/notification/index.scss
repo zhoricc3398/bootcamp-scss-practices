@@ -1,0 +1,265 @@
+$font-awesome: 'FontAwesome';
+
+.notification {
+    position: relative;
+    width: 570px;
+    margin-right: 30px;
+    margin-bottom: 32px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+    &.warning {
+        background-color: $color-4;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            margin-top: 8px;
+            margin-right: 28.9px;
+            margin-left: 48px;
+            float: left;
+            border: 1px solid;
+            border: solid 7px;
+            border-radius: 50%;
+            border-color: $color-5;
+
+            &::before {
+                content: '\f12a';
+                color: $color-7;
+                font-family: $font-awesome;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 12px;
+            right: 19px;
+            color: $color-7;
+            font-family: $font-awesome;
+            text-decoration: none;
+
+            &::before {
+                content: '\f00d';
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &.check {
+        background-color: $color-8;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            margin-top: 8px;
+            margin-right: 28.9px;
+            margin-left: 48px;
+            float: left;
+            border: solid 7px;
+            border-radius: 50%;
+            border-color: $color-9;
+
+            &::before {
+                content: '\f00c';
+                color: $color-10;
+                font-family: $font-awesome;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 12px;
+            right: 19px;
+            color: $color-10;
+            font-family: $font-awesome;
+            text-decoration: none;
+
+            &::before {
+                content: '\f00d';
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &.close {
+        background-color: $color-11;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            margin-top: 8px;
+            margin-right: 28.9px;
+            margin-left: 48px;
+            float: left;
+            border: solid 7px;
+            border-radius: 50%;
+            border-color: $color-12;
+
+            &::before {
+                content: '\f00d';
+                color: $color-13;
+                font-family: $font-awesome;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 12px;
+            right: 19px;
+            color: $color-13;
+            font-family: $font-awesome;
+            text-decoration: none;
+
+            &::before {
+                content: '\f00d';
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &.bolt {
+        background-color: $color-14;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            margin-top: 8px;
+            margin-right: 28.9px;
+            margin-left: 48px;
+            float: left;
+            border: solid 7px;
+            border-radius: 50%;
+            border-color: $color-15;
+
+            &::before {
+                content: '\f0e7';
+                color: $color-16;
+                font-family: $font-awesome;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 12px;
+            right: 19px;
+            color: $color-16;
+            font-family: $font-awesome;
+            text-decoration: none;
+
+            &::before {
+                content: '\f00d';
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &.info {
+        background-color: $color-17;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            margin-top: 8px;
+            margin-right: 28.9px;
+            margin-left: 48px;
+            float: left;
+            border: solid 7px;
+            border-radius: 50%;
+            border-color: $color-18;
+
+            &::before {
+                content: '\f129';
+                color: $color-19;
+                font-family: $font-awesome;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 12px;
+            right: 19px;
+            color: $color-19;
+            font-family: $font-awesome;
+            text-decoration: none;
+
+            &::before {
+                content: '\f00d';
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &:nth-of-type(odd) {
+        clear: both;
+    }
+
+    &:nth-of-type(even) {
+        margin-right: 0;
+    }
+
+    &:last-of-type {
+        width: 1170px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .message {
+        padding-right: 61px;
+
+        h1 {
+            margin-bottom: 6px;
+            color: $color-2;
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: 1.4px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: $color-2;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &.long {
+
+        .message {
+            padding-right: 54px;
+        }
+    }
+}
