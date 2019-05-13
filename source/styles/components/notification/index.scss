@@ -1,3 +1,5 @@
+@import '_size';
+
 $font-awesome: 'FontAwesome';
 
 .notification {
@@ -18,16 +20,9 @@ $font-awesome: 'FontAwesome';
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
             float: left;
-            border: 1px solid;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-5;
+            @include icon(64px, 64px, 8px, 28.9px, 48px);
+            @include border(7px, solid, 50%, $color-5);
 
             &::before {
                 content: '\f12a';
@@ -61,15 +56,9 @@ $font-awesome: 'FontAwesome';
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
             float: left;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-9;
+            @include icon(64px, 64px, 8px, 28.9px, 48px);
+            @include border(7px, solid, 50%, $color-9);
 
             &::before {
                 content: '\f00c';
@@ -103,15 +92,9 @@ $font-awesome: 'FontAwesome';
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
             float: left;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-12;
+            @include icon(64px, 64px, 8px, 28.9px, 48px);
+            @include border(7px, solid, 50%, $color-12);
 
             &::before {
                 content: '\f00d';
@@ -145,15 +128,9 @@ $font-awesome: 'FontAwesome';
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
             float: left;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-15;
+            @include icon(64px, 64px, 8px, 28.9px, 48px);
+            @include border(7px, solid, 50%, $color-15);
 
             &::before {
                 content: '\f0e7';
@@ -187,15 +164,9 @@ $font-awesome: 'FontAwesome';
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
             float: left;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-18;
+            @include icon(64px, 64px, 8px, 28.9px, 48px);
+            @include border(7px, solid, 50%, $color-18);
 
             &::before {
                 content: '\f129';
