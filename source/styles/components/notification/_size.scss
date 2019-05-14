@@ -1,0 +1,15 @@
+@mixin icon($width, $height, $margin-top, $margin-right, $margin-left) {
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    margin-right: $margin-right;
+    margin-left: $margin-right;
+}
+
+@mixin border($border-width, $border-style, $border-radius, $border-color) {
+    border-width: $border-width;
+    border-style: $border-style;
+    border-radius: $border-radius;
+    border-color: $border-color;
+}
+
