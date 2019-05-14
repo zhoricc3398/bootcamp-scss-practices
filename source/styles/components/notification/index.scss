@@ -8,49 +8,54 @@ $font-awesome: 'FontAwesome';
     padding-top: 34px;
     padding-bottom: 34px;
     float: left;
+    border: $color-1 solid 1px;
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
 
-    &.warning {
+    a {
+        position: absolute;
+        top: 12px;
+        right: 19px;
+        color: $color-6;
+        font-family: $font-awesome;
+        text-decoration: none;
+
+        &::before {
+            content: '\f00d';
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &.solid {
         background-color: $color-4;
 
-        .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
-            float: left;
-            border: 1px solid;
-            border: solid 7px;
-            border-radius: 50%;
-            border-color: $color-5;
-
-            &::before {
-                content: '\f12a';
-                color: $color-7;
-                font-family: $font-awesome;
-                font-size: 24px;
-                line-height: 26px;
-            }
-        }
-
         a {
-            position: absolute;
-            top: 12px;
-            right: 19px;
+            color: $color-7;
+        }
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        margin-top: 8px;
+        margin-right: 28.9px;
+        margin-left: 48px;
+        float: left;
+        border: $color-5 solid 7px;
+        border-radius: 50%;
+        background-color: $color-4;
+
+        &::before {
+            content: '\f12a';
+            padding: auto;
             color: $color-7;
             font-family: $font-awesome;
-            text-decoration: none;
-
-            &::before {
-                content: '\f00d';
-                font-size: 14px;
-                line-height: 24px;
-            }
+            font-size: 24px;
+            line-height: 26px;
         }
     }
 
@@ -58,40 +63,20 @@ $font-awesome: 'FontAwesome';
         background-color: $color-8;
 
         .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
-            float: left;
-            border: solid 7px;
-            border-radius: 50%;
             border-color: $color-9;
+            background-color: $color-8;
 
             &::before {
                 content: '\f00c';
                 color: $color-10;
-                font-family: $font-awesome;
-                font-size: 24px;
-                line-height: 26px;
             }
         }
 
         a {
-            position: absolute;
-            top: 12px;
-            right: 19px;
             color: $color-10;
-            font-family: $font-awesome;
-            text-decoration: none;
 
             &::before {
                 content: '\f00d';
-                font-size: 14px;
-                line-height: 24px;
             }
         }
     }
@@ -100,40 +85,20 @@ $font-awesome: 'FontAwesome';
         background-color: $color-11;
 
         .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
-            float: left;
-            border: solid 7px;
-            border-radius: 50%;
             border-color: $color-12;
+            background-color: $color-11;
 
             &::before {
                 content: '\f00d';
                 color: $color-13;
-                font-family: $font-awesome;
-                font-size: 24px;
-                line-height: 26px;
             }
         }
 
         a {
-            position: absolute;
-            top: 12px;
-            right: 19px;
             color: $color-13;
-            font-family: $font-awesome;
-            text-decoration: none;
 
             &::before {
                 content: '\f00d';
-                font-size: 14px;
-                line-height: 24px;
             }
         }
     }
@@ -142,40 +107,20 @@ $font-awesome: 'FontAwesome';
         background-color: $color-14;
 
         .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
-            float: left;
-            border: solid 7px;
-            border-radius: 50%;
             border-color: $color-15;
+            background-color: $color-14;
 
             &::before {
                 content: '\f0e7';
                 color: $color-16;
-                font-family: $font-awesome;
-                font-size: 24px;
-                line-height: 26px;
             }
         }
 
         a {
-            position: absolute;
-            top: 12px;
-            right: 19px;
             color: $color-16;
-            font-family: $font-awesome;
-            text-decoration: none;
 
             &::before {
                 content: '\f00d';
-                font-size: 14px;
-                line-height: 24px;
             }
         }
     }
@@ -184,40 +129,20 @@ $font-awesome: 'FontAwesome';
         background-color: $color-17;
 
         .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            margin-top: 8px;
-            margin-right: 28.9px;
-            margin-left: 48px;
-            float: left;
-            border: solid 7px;
-            border-radius: 50%;
             border-color: $color-18;
+            background-color: $color-17;
 
             &::before {
                 content: '\f129';
                 color: $color-19;
-                font-family: $font-awesome;
-                font-size: 24px;
-                line-height: 26px;
             }
         }
 
         a {
-            position: absolute;
-            top: 12px;
-            right: 19px;
             color: $color-19;
-            font-family: $font-awesome;
-            text-decoration: none;
 
             &::before {
                 content: '\f00d';
-                font-size: 14px;
-                line-height: 24px;
             }
         }
     }
